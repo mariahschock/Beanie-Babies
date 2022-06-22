@@ -7,7 +7,7 @@ export default function BeaniesList({ beanieBabies }) {
       {
         beanieBabies.map((beanieBaby, i) => {
           return <BeanieBaby 
-            {...beanieBaby} key={beanieBaby.title + i + beanieBaby.id} to={`/beanieBaby/${beanieBaby.id}`}/>;
+            {...beanieBaby} key={beanieBaby.title + i + beanieBaby.id} />;
         })
       }  
     </div>);
